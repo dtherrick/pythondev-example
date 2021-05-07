@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pythondev-example"
+version = "0.1.0"
+description = "An example python project that follows guidelines to modernize Python develpoment."
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/dtherrick/pythondev-example"
+repository = "https://github.com/dtherrick/pythondev-example"
+keywords = ["pythondev"]
+authors = ["Damian Herrick <damian.herrick@sas.com>"]
+
+[tool.poetry.scripts]
+pythondev-example = "pythondev_example.console:main"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
