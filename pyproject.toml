@@ -16,13 +16,21 @@ pythondev-example = "pythondev_example.console:main"
 python = "^3.7"
 click = "^7.1.2"
 requests = "^2.25.1"
-pytest-cov = "^2.11.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
 coverage = {version = "^5.5", extras = ["toml"]}
 nox = "^2020.12.31"
 pytest-mock = "^3.6.1"
+black = {version = "^21.5b1", allow-prereleases = true}
+flake8 = "^3.9.2"
+flake8-black = "^0.2.1"
+flake8-import-order = "^0.18.1"
+pytest-cov = "^2.12.0"
+flake8-bandit = "^2.1.2"
+flake8-bugbear = "^21.4.3"
+safety = "^1.10.3"
+pre-commit = "^2.13.0"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]

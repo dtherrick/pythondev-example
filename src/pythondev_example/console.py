@@ -1,8 +1,13 @@
 # src/pythondev_example/console.py
+# Standard library imports
 import textwrap
+
+# Third Party Imports
 import click
 
+# Application relative imports
 from . import __version__, wikipedia
+
 
 @click.command()
 @click.option(
