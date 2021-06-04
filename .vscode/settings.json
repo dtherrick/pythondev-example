@@ -13,5 +13,6 @@
     "python.linting.flake8Path": "/Users/daherr/Library/Caches/pypoetry/virtualenvs/pythondev-example-FoAzB9g3-py3.8/bin/flake8",
     "python.linting.mypyEnabled": true,
     "python.linting.mypyPath": "/Users/daherr/Library/Caches/pypoetry/virtualenvs/pythondev-example-FoAzB9g3-py3.8/bin/mypy",
-    "python.linting.mypyArgs": []
+    "python.linting.mypyArgs": [],
+    "restructuredtext.confPath": "${workspaceFolder}/docs"
 }

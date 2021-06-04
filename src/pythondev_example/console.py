@@ -1,4 +1,5 @@
 # src/pythondev_example/console.py
+"""Command-line interface."""
 # Standard library imports
 import textwrap
 
