@@ -2,6 +2,7 @@
 name = "pythondev-example"
 version = "0.2.0"
 description = "An example python project that follows guidelines to modernize Python develpoment."
+documentation = "https://pythondev-example.readthedocs.io"
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/dtherrick/pythondev-example"
