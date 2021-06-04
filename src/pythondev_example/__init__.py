@@ -1,4 +1,12 @@
 # src/pythondev_example/__init__.py
 """The pythondev_example project."""
 
-__version__ = "0.1.0"
+try:
+    from importlib.metadata import version, PackageNotFoundError  # type: ignore
+except ImportError:  # pragma: no cover
+    from importlib_metadata import version, PackageNotFoundError  # type: ignore
+
+try:
+    __version__ = version(__name__)
+except PackageNotFoundError:  # pragma: no cover
+    __version__ = "unknown"
